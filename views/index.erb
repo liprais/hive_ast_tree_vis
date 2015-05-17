@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<script type="text/javascript" src="d3.min.js"></script>
+		<script type="text/javascript" src="d3.layout.js"></script>
+		<script src="jquery-1.5.2.js"></script>
+		<style type="text/css">
+			.node circle {
+				cursor: pointer;
+				fill: #fff;
+				stroke: steelblue;
+				stroke-width: 1.5px;
+			}
+
+			.node text {
+				font-size: 11px;
+			}
+
+			path.link {
+				fill: none;
+				stroke: #ccc;
+				stroke-width: 1.5px;
+			}
+		</style>
+	</head>
+	<body>
+	<textarea id='query'></textarea>
+	<button id="btn_draw">draw</button>
+		<div id="graph">
+		</div>
+		<script type="text/javascript" src="tree_map_xhr.js"></script>
+	</body>
+</html>
