@@ -35,4 +35,4 @@ class TBuilder
 	end
 end
 
-#a = TBuilder.new.build_ast_tree("select 1").print_tree
+a = TBuilder.new.build_ast_tree("select 1").print_tree
